@@ -1,0 +1,37 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666409899178,1970,register,201,Created,Thread Group 1-1,text,true,,565,1671,3,3,https://market-final-project.herokuapp.com/auth/register,1970,0,1280
+1666409899514,1880,register,201,Created,Thread Group 1-2,text,true,,565,1707,3,3,https://market-final-project.herokuapp.com/auth/register,1880,0,1206
+1666409899847,1656,register,201,Created,Thread Group 1-3,text,true,,565,1662,3,3,https://market-final-project.herokuapp.com/auth/register,1656,0,1012
+1666409901149,445,Login,201,Created,Thread Group 1-1,text,true,,502,416,3,3,https://market-final-project.herokuapp.com/auth/login,445,0,0
+1666409901396,385,Login,201,Created,Thread Group 1-2,text,true,,502,416,3,3,https://market-final-project.herokuapp.com/auth/login,385,0,0
+1666409901503,395,Login,201,Created,Thread Group 1-3,text,true,,502,416,3,3,https://market-final-project.herokuapp.com/auth/login,395,0,0
+1666409901595,1788,POST Seller Product,201,Created,Thread Group 1-1,text,true,,663,142767,3,3,https://market-final-project.herokuapp.com/seller/product,1787,0,0
+1666409901899,1678,POST Seller Product,201,Created,Thread Group 1-3,text,true,,663,142758,3,3,https://market-final-project.herokuapp.com/seller/product,1677,0,0
+1666409903384,357,GET Seller Product,200,OK,Thread Group 1-1,text,true,,2036,338,3,3,https://market-final-project.herokuapp.com/seller/product,357,0,0
+1666409903578,363,GET Seller Product,200,OK,Thread Group 1-3,text,true,,2036,338,3,3,https://market-final-project.herokuapp.com/seller/product,363,0,0
+1666409903742,317,GET Seller Product ID,200,OK,Thread Group 1-1,text,true,,719,344,3,3,https://market-final-project.herokuapp.com/seller/product/23699,317,0,0
+1666409901782,2445,POST Seller Product,201,Created,Thread Group 1-2,text,true,,663,142776,3,3,https://market-final-project.herokuapp.com/seller/product,2445,0,0
+1666409903943,317,GET Seller Product ID,200,OK,Thread Group 1-3,text,true,,719,344,3,3,https://market-final-project.herokuapp.com/seller/product/23699,317,0,0
+1666409904059,318,DELETE Seller Product ID,200,OK,Thread Group 1-1,text,true,,322,366,3,3,https://market-final-project.herokuapp.com/seller/product/23951,318,0,0
+1666409904228,318,GET Seller Product,200,OK,Thread Group 1-2,text,true,,2036,338,3,3,https://market-final-project.herokuapp.com/seller/product,318,0,0
+1666409904261,312,DELETE Seller Product ID,404,Not Found,Thread Group 1-3,text,false,,342,366,3,3,https://market-final-project.herokuapp.com/seller/product/23951,312,0,0
+1666409904547,821,GET Seller Product ID,200,OK,Thread Group 1-2,text,true,,719,344,3,3,https://market-final-project.herokuapp.com/seller/product/23699,821,0,0
+1666409905369,628,DELETE Seller Product ID,404,Not Found,Thread Group 1-2,text,false,,342,366,3,3,https://market-final-project.herokuapp.com/seller/product/23951,628,0,0
+1666409904378,4096,GET Buyer Product,200,OK,Thread Group 1-1,text,true,,1776484,391,3,3,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=2&search=&page&per_page=,913,0,0
+1666409908475,285,GET Buyer Product ID,200,OK,Thread Group 1-1,text,true,,1149,339,3,3,https://market-final-project.herokuapp.com/buyer/product/1,284,0,0
+1666409904575,4378,GET Buyer Product,200,OK,Thread Group 1-3,text,true,,1776484,391,3,3,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=2&search=&page&per_page=,1379,0,0
+1666409908760,315,POST Buyer Order,201,Created,Thread Group 1-1,text,true,,683,406,3,3,https://market-final-project.herokuapp.com/buyer/order,315,0,0
+1666409908956,288,GET Buyer Product ID,200,OK,Thread Group 1-3,text,true,,1149,339,3,3,https://market-final-project.herokuapp.com/buyer/product/1,288,0,0
+1666409909076,341,GET Buyer Order,200,OK,Thread Group 1-1,text,true,,8777,335,3,3,https://market-final-project.herokuapp.com/buyer/order,341,0,0
+1666409909245,295,POST Buyer Order,400,Bad Request,Thread Group 1-3,text,false,,345,406,3,3,https://market-final-project.herokuapp.com/buyer/order,295,0,0
+1666409909418,295,GET Buyer Order ID,200,OK,Thread Group 1-1,text,true,,1392,341,3,3,https://market-final-project.herokuapp.com/buyer/order/11343,295,0,0
+1666409905998,3734,GET Buyer Product,200,OK,Thread Group 1-2,text,true,,1776484,391,3,3,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=2&search=&page&per_page=,681,0,0
+1666409909542,317,GET Buyer Order,200,OK,Thread Group 1-3,text,true,,8777,335,3,3,https://market-final-project.herokuapp.com/buyer/order,295,0,0
+1666409909733,290,GET Buyer Product ID,200,OK,Thread Group 1-2,text,true,,1149,339,3,3,https://market-final-project.herokuapp.com/buyer/product/1,290,0,0
+1666409909714,311,PUT Buyer Order ID,200,OK,Thread Group 1-1,text,true,,735,386,3,3,https://market-final-project.herokuapp.com/buyer/order/11343,311,0,0
+1666409909860,393,GET Buyer Order ID,200,OK,Thread Group 1-3,text,true,,1392,341,2,2,https://market-final-project.herokuapp.com/buyer/order/11343,393,0,0
+1666409910024,299,POST Buyer Order,400,Bad Request,Thread Group 1-2,text,false,,345,406,2,2,https://market-final-project.herokuapp.com/buyer/order,299,0,0
+1666409910255,292,PUT Buyer Order ID,200,OK,Thread Group 1-3,text,true,,735,386,2,2,https://market-final-project.herokuapp.com/buyer/order/11343,291,0,0
+1666409910324,375,GET Buyer Order,200,OK,Thread Group 1-2,text,true,,8777,335,1,1,https://market-final-project.herokuapp.com/buyer/order,290,0,0
+1666409910700,309,GET Buyer Order ID,200,OK,Thread Group 1-2,text,true,,1392,341,1,1,https://market-final-project.herokuapp.com/buyer/order/11343,309,0,0
+1666409911010,341,PUT Buyer Order ID,200,OK,Thread Group 1-2,text,true,,735,386,1,1,https://market-final-project.herokuapp.com/buyer/order/11343,341,0,0

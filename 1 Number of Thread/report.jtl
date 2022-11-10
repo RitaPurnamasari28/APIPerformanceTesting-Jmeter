@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666408918160,1990,register,201,Created,Thread Group 1-1,text,true,,565,1698,1,1,https://market-final-project.herokuapp.com/auth/register,1990,0,1283
+1666408920151,378,Login,201,Created,Thread Group 1-1,text,true,,502,416,1,1,https://market-final-project.herokuapp.com/auth/login,378,0,0
+1666408920530,1856,POST Seller Product,201,Created,Thread Group 1-1,text,true,,663,142713,1,1,https://market-final-project.herokuapp.com/seller/product,1856,0,0
+1666408922389,332,GET Seller Product,200,OK,Thread Group 1-1,text,true,,2474,338,1,1,https://market-final-project.herokuapp.com/seller/product,332,0,0
+1666408922723,406,GET Seller Product ID,200,OK,Thread Group 1-1,text,true,,719,344,1,1,https://market-final-project.herokuapp.com/seller/product/23699,406,0,0
+1666408923131,409,DELETE Seller Product ID,200,OK,Thread Group 1-1,text,true,,322,366,1,1,https://market-final-project.herokuapp.com/seller/product/23950,409,0,0
+1666408923543,3783,GET Buyer Product,200,OK,Thread Group 1-1,text,true,,1776001,391,1,1,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=2&search=&page&per_page=,817,0,0
+1666408927327,395,GET Buyer Product ID,200,OK,Thread Group 1-1,text,true,,1149,339,1,1,https://market-final-project.herokuapp.com/buyer/product/1,395,0,0
+1666408927723,423,POST Buyer Order,201,Created,Thread Group 1-1,text,true,,683,406,1,1,https://market-final-project.herokuapp.com/buyer/order,422,0,0
+1666408928146,410,GET Buyer Order,200,OK,Thread Group 1-1,text,true,,7851,335,1,1,https://market-final-project.herokuapp.com/buyer/order,410,0,0
+1666408928557,314,GET Buyer Order ID,200,OK,Thread Group 1-1,text,true,,1392,341,1,1,https://market-final-project.herokuapp.com/buyer/order/11343,314,0,0
+1666408928872,399,PUT Buyer Order ID,200,OK,Thread Group 1-1,text,true,,735,386,1,1,https://market-final-project.herokuapp.com/buyer/order/11343,399,0,0
